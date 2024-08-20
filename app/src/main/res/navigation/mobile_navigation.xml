@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/breakingNewsFragment">
+
+
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.talloka.fragment1.ui.breakingnews.BreakingNewsFragment"
+        android:label="fragment_breaking_news"
+        tools:layout="@layout/fragment_breaking_news" />
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.talloka.fragment1.ui.savednews.SavedNewsFragment"
+        android:label="fragment_saved_news"
+        tools:layout="@layout/fragment_saved_news" />
+    <fragment
+        android:id="@+id/searchNewsFragment"
+        android:name="com.talloka.fragment1.ui.searchnews.SearchNewsFragment"
+        android:label="fragment_search_news"
+        tools:layout="@layout/fragment_search_news" />
+</navigation>
